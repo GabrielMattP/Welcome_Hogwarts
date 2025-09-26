@@ -25,7 +25,7 @@ body {
     rgba(192, 204, 215, 1) 1%,
     rgba(195, 195, 195, 1) 100%
   );
-  margin: 54px auto 96px auto;
+  margin: 54px auto 54px auto;
   border-radius: 10px;
 }
 #banner {
@@ -47,16 +47,59 @@ body {
 }
 #about h1 {
   font-size: 48px;
+  margin-bottom: 10px;
 }
 #about p {
   font-size: 18px;
 }
 
 #to-do {
-    border: 1px solid;
   width: 716px;
-  margin: 0 auto;
+  margin: 40px auto;
   display: flex;
   justify-content: space-between;
 }
 
+#things-to-do{
+  width: 417px;
+
+}
+#things-to-do ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 
+  60px;
+}
+#things-to-do li{
+    font-size: 18px;
+    list-style: none;
+}
+#images-things{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 295px;
+}
+#curious{
+  margin: 0 auto;
+  width: 716px;
+  text-align: center;
+  height: 150px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+#curious p{
+font-size: 18px;
+}
+footer{
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer p{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
